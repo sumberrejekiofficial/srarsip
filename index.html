@@ -1,44 +1,22 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SR ARSIP SYSTEM</title>
-  <link rel="icon" href="https://github.com/sumberrejekiofficial/srbookingsystem/blob/da093c9fad77057325850f3e0975c93e091c239b/Logo1.png" />
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%;
-      height: 100%;
-      background-color: #eee;
-      overflow: hidden; /* Mencegah scroll ganda */
-    }
-
-    .iframe-container {
-      width: 100%;
-      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
-      overflow: hidden;
-    }
-
-    iframe {
-      display: block;
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SR Arsip</title>
+<meta http-equiv="refresh" content="0; url=https://script.google.com/macros/s/ID_DEPLOY_ANDA/exec">
+<style>
+  body{margin:0;background:#1565d8;color:#fff;font-family:system-ui,sans-serif;
+       display:flex;align-items:center;justify-content:center;height:100vh;text-align:center}
+  a{color:#fff;font-weight:700}
+</style>
 </head>
 <body>
-  <div class="iframe-container">
-    <iframe
-      id="app"   src="https://script.google.com/macros/s/AKfycbxVwFLMiNab6pr47GtviqF0vAgpXEWGlaIvIidw8sU3I8lVdsVLyiamr90fcysBmA-J/exec"
-      scrolling="yes"
-      allowfullscreen="true"
-      webkitallowfullscreen="true"
-      mozallowfullscreen="true"
-      allow="fullscreen; camera; microphone; display-capture; geolocation;">
-    </iframe>
+  <div>
+    <h2>SR Arsip</h2>
+    <p>Membuka aplikasi...</p>
+    <p><a id="lnk" href="https://script.google.com/macros/s/ID_DEPLOY_ANDA/exec">Klik di sini jika tidak terbuka</a></p>
   </div>
+  <script>window.location.replace(document.getElementById('lnk').href);</script>
 </body>
 </html>
